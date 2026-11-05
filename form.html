@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Смолякова_п-12</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header class="clearfix">
+            <a href="index.html" id= "logo"><span class="pink">MOSS & </span> <i>STONE</i></a>
+      <nav id="mainnav">
+        <ul>
+            <li><a href="uslugi.html">Услуги</a></li>
+            <li><a href="onas.html">О нас</a></li>
+            <li><a href="klienti.html">Клиенты</a></li>
+            <li><a href="svyaz.html">Контакты</a></li>
+        </ul>
+      </nav>
+        </header>
+        
+        <main>
+          <form action="" id="contact-form">
+                <div class="form_item">
+                    <label for="topic"><i>Тема</i></label><br>
+                    <select name="topic" id="topic">
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Оставить отзыв/замечание</option>
+                        <option value="3">Предложить сотрудничество</option>
+                        <option value="4">Другое</option>
+                    </select>
+                </div>
+                <div class="form_item">
+                    <label for="date"><i>Дата</i></label><br>
+                    <input type="text" id="date" placeholder="20.10.2026" required>
+                </div>
+                <div class="form_item">
+                    <label for="tel"><i>Телефон</i></label><br>
+                    <input type="text" id="tel" placeholder="+7 (490) 555-01-23" required>
+                </div>
+                <div class="form_item">
+                    <label for="name"><i>Имя</i></label><br>
+                    <input name="name" id="name" type="text" placeholder="Иванов Иван Иванович" required>
+                </div>
+                <div class="form_item">
+                    <label for="name"><i>E-mail</i></label><br>
+                    <input name="email" id="email" type="email" placeholder="contact@moss-stone.example" required>
+                </div>
+                <div>
+                    <label for="textarea">
+                        <i>Текст сообщения</i>
+                    </label><br>
+                    <textarea id="textarea" rows="7" placeholder="Добавить комментарий" required></textarea>
+                    
+                </div>
+                <div class="form_item">
+                    <input type="submit">
+                </div>
+                
+            </form>
+        </main>
+
+    </div>
+    <footer>
+      
+        <p class="footer__block"><a href="form.html" class="colar">Написать нам &#9650;</a></p>   
+        <p class="footer__block">&copy; 2026 MOSS & STONE</p>
+        
+      <div class="footer__icons">
+      <img src="img/ok.png" alt="картинка" class="footer__img" target= "_blank">
+        <img src="img/mailru.png" alt="картинка" class="footer__img" target= "_blank">
+        <img src="img/vk.png" alt="картинка" class="footer__img" target= "_blank">
+    </div>
+    </footer>
+    
+</body>
+</html>
